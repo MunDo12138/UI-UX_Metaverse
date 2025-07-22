@@ -97,26 +97,49 @@ yarn dev
 - `npm run start` - Starts the production server
 - `npm run lint` - Runs ESLint for code quality checks
 
-## Key Sections
+## 🌟 Key Sections
 
-1. **Hero Section**: Eye-catching introduction with animated text and cover image
-2. **About Section**: Information about the metaverse concept and VR experiences
-3. **Explore Section**: Showcase of different virtual worlds (Hogwarts, Upside Down, etc.)
-4. **Get Started**: Guide for users to begin their metaverse journey
-5. **What's New**: Latest features and updates
-6. **World Section**: Interactive world map and exploration
-7. **Insights**: Blog-style content about metaverse trends
-8. **Feedback Section**: User testimonials and reviews
+1. **Hero Section**: Eye-catching introduction with animated typing text and immersive cover image
+2. **About Section**: Information about the metaverse concept and VR experiences with animated content
+3. **Explore Section**: Interactive showcase of 5 virtual worlds:
+   - The Hogwarts
+   - The Upside Down  
+   - Kadirojo Permai
+   - Paradise Island
+   - Hawkins Labs
+4. **Get Started**: 3-step guide for users to begin their metaverse journey
+5. **What's New**: Latest features including "A new world" and "More realistic" experiences
+6. **World Section**: Interactive world map with people avatars and exploration features
+7. **Insights**: Blog-style content with 3 articles about metaverse trends and tips
+8. **Feedback Section**: User testimonials and reviews with avatar integration
 
-## Customization
+## 🎨 Customization
 
-The project uses Tailwind CSS for styling with custom color schemes and animations. Key customization points:
+The project uses Tailwind CSS with JIT mode for optimal performance and custom styling:
 
-- **Colors**: Primary black (`#1A232E`) and secondary white (`#c7c7c7`)
-- **Animations**: Custom motion variants in the `utils/motion.js` file
-- **Content**: Update the `constants/index.js` file to modify worlds, features, and insights
+### Color Scheme
+- **Primary Black**: `#1A232E` - Main background and text
+- **Secondary White**: `#c7c7c7` - Secondary text and accents
+- **Custom Gradients**: Multiple gradient overlays for depth and visual appeal
 
-## Deployment
+### Animation System
+- **Motion Variants**: Custom animation presets in `utils/motion.js`
+- **Framer Motion**: Smooth page transitions and interactive elements
+- **Custom Timing**: `cubic-bezier(0.05, 0.6, 0.4, 0.9)` for natural motion
+
+### Content Management
+Update content easily through `constants/index.js`:
+- **exploreWorlds**: Virtual world data (5 worlds)
+- **startingFeatures**: Getting started steps (3 steps)
+- **newFeatures**: Latest feature highlights (2 features)
+- **insights**: Blog articles (3 articles)
+- **socials**: Social media links (4 platforms)
+
+### Typography
+- **Font**: Eudoxus Sans (loaded from external CDN)
+- **Custom Text Components**: TypingText and TitleText for consistent styling
+
+## 🚀 Deployment
 
 The project is configured for static export and can be deployed to any static hosting service:
 
@@ -124,7 +147,10 @@ The project is configured for static export and can be deployed to any static ho
 npm run build
 ```
 
-This generates a static export in the `out` directory.
+This command:
+1. Builds the Next.js application
+2. Exports static files to the `out` directory
+3. Ready for deployment to Vercel, Netlify, GitHub Pages, or any static host
 
 ## Contributing
 
