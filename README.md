@@ -59,7 +59,7 @@ metaverse-landing-page/
 └── config files           # Next.js, Tailwind, ESLint configurations
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -90,10 +90,10 @@ yarn dev
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-## Available Scripts
+## 📜 Available Scripts
 
-- `npm run dev` - Starts the development server
-- `npm run build` - Builds the application for production
+- `npm run dev` - Starts the development server on port 3000
+- `npm run build` - Builds the application and exports static files
 - `npm run start` - Starts the production server
 - `npm run lint` - Runs ESLint for code quality checks
 
